@@ -1,0 +1,187 @@
+
+.body{
+    margin: 0px;
+    display: block;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.video{
+    padding: 0;
+    width: 100%;
+    height: 99.99vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #000000;
+    filter: blur(1px);
+}
+
+.title{
+    z-index: 3;
+    margin: auto;
+    top: 20vh;
+    left: 28%;
+    position: absolute;
+    color: #fd3f31;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title2{
+    z-index: 4;
+    margin: auto;
+    text-transform: uppercase;
+    top: 53%;
+    background:#fd3f31;
+    padding: 4px 10px;
+    border-radius: 5px;
+    left: 39%;
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    color: #fff;
+    left: 42%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.btn {
+    z-index: 4;
+    top: 30%;
+    left:40%;
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff!important;
+    background-color: #fd3f31;
+    border: 2px solid #fd3f31;
+    cursor: pointer;
+    width: max-content;
+    transition: 0.25s ease;
+}
+
+.btn:hover{
+    color: #fd3f31!important;
+    background-color: white;
+    text-decoration: none!important;
+}
+
+.check-list {
+    margin: 0;
+    padding-left: 1.2rem;
+    position: absolute;
+    top: 60%;
+    left: 32%;
+  }
+  
+  .check-list li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #fd3f31;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  
+  .check-list li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -2px;
+      width: 10px;
+      height: 20px;
+      border-width: 0 4px 4px 0;
+      border-style: solid;
+      border-color: #fd3f31;
+      transform-origin: bottom left;
+      transform: rotate(45deg);
+  }
+  
+  
+  /* Boilerplate stuff */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  section {
+    height: 100%;
+  }
+  
+  section {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  div {
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .title{
+      font-size: 45px;
+      left: 25%;
+    }
+    .btn{
+      left: 40%;
+      font-size: 18px;
+    }
+    .title2{
+      left: 39%;
+      font-size: 29px;
+      top: 48%;
+    }
+    .check-list{
+      left: 23%;
+      top: 55%;
+    }
+    .check-list li{
+      font-size: 21px;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    .title{
+      font-size: 38px;
+      left: 18%;
+    }
+    .btn{
+      left: 38%;
+      font-size: 15px;
+    }
+    .title2{
+      left: 37%;
+      font-size: 27px;
+      top: 48%;
+    }
+    .check-list{
+      left: 16%;
+      top: 55%;
+    }
+    .check-list li{
+      font-size: 21px;
+    }
+  }
+
+  
