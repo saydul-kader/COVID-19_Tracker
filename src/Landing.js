@@ -1,8 +1,6 @@
 import React from 'react';
 import Video from './videos/cvideo.mp4';
 import './landing.css';
-import App from './App';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 function Landing() {
     return(
