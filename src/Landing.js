@@ -1,6 +1,7 @@
 import React from 'react';
 import Video from './videos/cvideo.mp4';
 import './landing.css';
+import { Link } from 'react-router-dom';
 
 function Landing() {
     return(
