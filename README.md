@@ -16,6 +16,8 @@ A real-time COVID-19 situation tracker for more than 180 countries worldwide.
 - React router
 - Classnames
 
+# API
+- Mathdroid Covid-19 REST API
 ## Instructions
 
 To run this app in your local environment:
